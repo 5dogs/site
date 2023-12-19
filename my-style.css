@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    background-color: rgb(235, 241, 247);
+    display: flex;
+    /* align-items: center; */
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    /* padding-right: 15px; */
+    justify-content: flex-end;
+    background-color: rgb(121, 136, 150);
+}
+
+.logo-wrapper {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+.desktop_nav,
+.icons {
+    gap: 15px;
+}
+
+#burger {
+    display: none;
+}
+
+
+@media screen and (max-width: 838px) {
+    .desktop_nav {
+        display: none;
+        /* 通常のメニューを非表示 */
+    }
+
+    #burger {
+        display: block;
+        /* ハンバーガーメニューを表示 */
+        cursor: pointer;
+        /* カーソルをポインターに変更 */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    display: flex;
+    background-color: rgb(181, 210, 239);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+/* .logos {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+} */
+
+
+/*   */
+
+
+/* .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+/* .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+} */
+
+/* .menu {
+    margin: 10px;
+    color: rgb(186, 63, 26);
+} */
